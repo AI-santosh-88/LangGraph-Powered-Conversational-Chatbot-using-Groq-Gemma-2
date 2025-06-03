@@ -10,6 +10,7 @@ This project demonstrates how to build a stateful, streaming-capable chatbot usi
 The project allows users to communicate with an AI assistant, with real-time message handling, and structured graph-based processing of conversational state.
 
 🧑‍💻 Key Responsibilities/Functional Flow:
+
 1.User Input Handling: Captures and processes user input in a loop.
 
 2.Graph Construction: Uses StateGraph to define and manage a simple two-node graph (START -> chatbot -> END).
@@ -25,11 +26,17 @@ The project allows users to communicate with an AI assistant, with real-time mes
 
 📦 Python Packages Used:
 Package	                        Purpose
+
 langchain            -	        Core language model interface
+
 langgraph	           -          Graph-based workflow engine for LLM applications
+
 langsmith            -          (Optional) Observability, tracing, analytics
+
 langchain_groq	     -          Connects LangChain to Groq-hosted LLMs
+
 langchain_community  -	        Community-contributed tools and integrations
+
 typing_extensions	   -   T      ypedDict and Annotated typing features
 
 
