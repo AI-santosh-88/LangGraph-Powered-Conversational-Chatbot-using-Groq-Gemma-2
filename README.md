@@ -26,6 +26,7 @@ The project allows users to communicate with an AI assistant, with real-time mes
 
 
 
+
 📦 Python Packages Used:
 
 Package	                        Purpose
@@ -41,6 +42,7 @@ langchain_groq	     -          Connects LangChain to Groq-hosted LLMs
 langchain_community  -	        Community-contributed tools and integrations
 
 typing_extensions	   -   T      ypedDict and Annotated typing features
+
 
 
 📝 Summary:
