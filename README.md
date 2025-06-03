@@ -11,11 +11,17 @@ The project allows users to communicate with an AI assistant, with real-time mes
 
 🧑‍💻 Key Responsibilities/Functional Flow:
 1.User Input Handling: Captures and processes user input in a loop.
+
 2.Graph Construction: Uses StateGraph to define and manage a simple two-node graph (START -> chatbot -> END).
+
 3.Message Augmentation: Leverages add_messages to track conversational history.
+
 4.LLM Invocation: Uses ChatGroq to send the conversation state to the Gemma 2 model and get the AI's response.
+
 5.Streaming Output: Streams back AI responses in real-time using graph.stream(...).
+
 6.Session Termination: Allows graceful exit using "quit" or "q".
+
 
 📦 Python Packages Used:
 Package	                        Purpose
