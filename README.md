@@ -45,7 +45,7 @@ langchain_groq	     -          Connects LangChain to Groq-hosted LLMs
 
 langchain_community  -	        Community-contributed tools and integrations
 
-typing_extensions	   -   T      ypedDict and Annotated typing features
+typing_extensions	   -          TypedDict and Annotated typing features
 
 
 
