@@ -9,6 +9,7 @@ Businesses can use this chatbot for real-time customer service, internal automat
 This project demonstrates how to build a stateful, streaming-capable chatbot using the LangGraph framework (part of the LangChain ecosystem), integrated with the Groq API running the Gemma-2-9B-Instruct model. It uses a simple state management approach, invoking the model with updated messages and allowing for seamless, interactive chat sessions.
 The project allows users to communicate with an AI assistant, with real-time message handling, and structured graph-based processing of conversational state.
 
+
 🧑‍💻 Key Responsibilities/Functional Flow:
 
 1.User Input Handling: Captures and processes user input in a loop.
@@ -24,7 +25,9 @@ The project allows users to communicate with an AI assistant, with real-time mes
 6.Session Termination: Allows graceful exit using "quit" or "q".
 
 
+
 📦 Python Packages Used:
+
 Package	                        Purpose
 
 langchain            -	        Core language model interface
