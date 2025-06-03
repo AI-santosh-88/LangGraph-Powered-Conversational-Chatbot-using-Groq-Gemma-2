@@ -1,13 +1,16 @@
 📌 Project Title:
 LangGraph-Powered Conversational Chatbot using Groq + Gemma 2
 
+
 🏢 Business Use Case:
 Conversational AI for High-Speed, Low-Latency Responses Using Groq LLMs
 Businesses can use this chatbot for real-time customer service, internal automation, sales assistance, or domain-specific tasks like tech support, HR onboarding, or financial consultations — all powered by a lightning-fast Groq backend.
 
+
 🧾 Project Description:
 This project demonstrates how to build a stateful, streaming-capable chatbot using the LangGraph framework (part of the LangChain ecosystem), integrated with the Groq API running the Gemma-2-9B-Instruct model. It uses a simple state management approach, invoking the model with updated messages and allowing for seamless, interactive chat sessions.
 The project allows users to communicate with an AI assistant, with real-time message handling, and structured graph-based processing of conversational state.
+
 
 
 🧑‍💻 Key Responsibilities/Functional Flow:
@@ -27,6 +30,7 @@ The project allows users to communicate with an AI assistant, with real-time mes
 
 
 
+
 📦 Python Packages Used:
 
 Package	                        Purpose
@@ -42,6 +46,7 @@ langchain_groq	     -          Connects LangChain to Groq-hosted LLMs
 langchain_community  -	        Community-contributed tools and integrations
 
 typing_extensions	   -   T      ypedDict and Annotated typing features
+
 
 
 
